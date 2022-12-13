@@ -12,9 +12,9 @@ function loadAnts() {
             window.antsLoading = 4;
         }
     }
-    var someFiles = ['//www.cs.huji.ac.il/~irush/scripts/jquery-1.6.1.min.js',
-                     '//www.cs.huji.ac.il/~irush/scripts/jquery.highlight-3.js',
-                     '//www.cs.huji.ac.il/~irush/scripts/ants.js'];
+    var someFiles = ['//raw.githubusercontent.com/Edward358-AI/antsbml/main/jquery.highlight-3.js',
+                     '//raw.githubusercontent.com/Edward358-AI/antsbml/main/jquery-1.6.1.min.js',
+                     '//raw.githubusercontent.com/Edward358-AI/antsbml/main/ants.js'];
     protocol = "http:";
     if (window.location.protocol !== undefined)
         protocol = window.location.protocol
